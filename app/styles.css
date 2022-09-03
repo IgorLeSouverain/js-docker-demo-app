@@ -1,0 +1,39 @@
+.header {
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.dogs-container {
+  display: inline-block;
+  width: 700px;
+  height: 600px;
+}
+
+.dog-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 200px;
+  margin-bottom: 40px;
+
+}
+
+.dog-pic {
+  width: 100%;
+}
+
+.dog-pic-container {
+  width: 50%;
+}
+
+.dog-info-container {
+  display: grid;
+  grid-template-rows: 30px 30px 30px 65px 1fr;
+  width: 100%;
+  margin-left: 15px;
+}
+
+.edit-button {
+  font-size: 20px;
+}
+
