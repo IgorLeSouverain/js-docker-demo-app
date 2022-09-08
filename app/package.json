@@ -7,7 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+<<<<<<< HEAD
   "author": "Nana Janashia",
+=======
+  "author": "Igor Braguntsov",
+>>>>>>> 93e34c3f8e0ef949dc9ea625415990b3976fff4c
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
