@@ -5,11 +5,8 @@ services:
     image: my-app:1.0
     ports: 
       - 3000:3000
-<<<<<<< HEAD
-=======
     depends_on:
       - mongo-express
->>>>>>> 93e34c3f8e0ef949dc9ea625415990b3976fff4c
   mongodb:
     image: mongo:4.2.1
     ports:
@@ -25,9 +22,6 @@ services:
       - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
       - ME_CONFIG_MONGODB_ADMINPASSWORD=password
       - ME_CONFIG_MONGODB_SERVER=mongodb
-<<<<<<< HEAD
-=======
     depends_on:
       - mongodb
 
->>>>>>> 93e34c3f8e0ef949dc9ea625415990b3976fff4c
