@@ -3,9 +3,9 @@
 Building the app image
 ---
 
-1. In the folder with Dockerfile do ``` sudo docker build -t <any-tag> .```
+1. In the folder with Dockerfile do ``` sudo docker build -t my-app:1.0 .```
 
-2. Make sure there were no errors and you have both images(node and image with your tag), do ```sudo docker images```
+2. Make sure there were no errors and you have both images(node and my-app), do ```sudo docker images```
 
 Launching containers
 ---
