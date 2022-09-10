@@ -3,14 +3,14 @@
 Building the app image
 ---
 
-1. In the folder with Dockerfile do ``` sudo docker build -t <any-tag> .
+1. In the folder with Dockerfile do ``` sudo docker build -t <any-tag> .```
 
-2. Make sure there were no errors and you have the image, do ```sudo docker images
+2. Make sure there were no errors and you have the image, do ```sudo docker images```
 
 Launching containers
 ---
 
-1. In the folder with docker-compose.yaml do ```sudo docker-compose -f docker-compose.yaml up
+1. In the folder with docker-compose.yaml do ```sudo docker-compose -f docker-compose.yaml up```
 
 2. Wait for everything to download
 
