@@ -1,4 +1,8 @@
 # How to setup
+Installing node_modules
+---
+
+1. Assuming you have already installed npm, in the folder where package.json is located, do ```npm install```
 
 Building the app image
 ---
@@ -15,4 +19,11 @@ Launching containers
 2. Wait for everything to download
 
 3. Try to access both the app and the database - open a browser and type *localhost:8081* and *localhost:3000*
+
+4. Try editing and saving any info at localhost:3000 and then check if MongoDB created new volume and saved edited info
+
+Troubleshooting
+---
+
+1. If you don't see MongoDB create a new volume, try sudo docker-compose -f docker-compose restart
 
