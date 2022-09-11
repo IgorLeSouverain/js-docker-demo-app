@@ -2,7 +2,7 @@
 Installing node_modules
 ---
 
-1. Assuming you have already installed npm, in the folder where package.json is located, do ```npm install```
+1. Assuming you have already installed npm, in the folder where *package.json* is located, do ```npm install```
 
 Building the app image
 ---
