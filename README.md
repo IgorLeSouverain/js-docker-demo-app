@@ -27,6 +27,6 @@ Troubleshooting
 
 1. If you don't see MongoDB create a new volume, try sudo docker-compose -f docker-compose.yaml restart
 
-2. **This site can’t be reached** when connecting to localhost:3000, make sure you did ```npm install``` and have *node_modules* folder within *app* folder 
+2. **This site can’t be reached** when connecting to localhost:3000, make sure you did ```npm install``` and have *node_modules* folder within the *app* folder 
 
 
